@@ -6,9 +6,9 @@ Bem-vindo ao repositório do template de portfólio da Vyva Tech! Este é um pro
 
 1. Faça o download ou clone este repositório.
 
-    ```bash
-    git clone https://github.com/vyvatech/port-template.git
-    ```
+   ```bash
+   git clone https://github.com/vyvatech/port-template.git
+   ```
 
 2. Abra o arquivo `index.html` em seu navegador preferido.
 
@@ -24,10 +24,6 @@ O projeto está organizado da seguinte forma:
 ## Personalização
 
 Sinta-se à vontade para personalizar o template de acordo com suas preferências e necessidades. Adicione suas próprias seções, projetos e informações.
-
-## Contribuições
-
-Contribuições são bem-vindas! Se encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Contato
 
