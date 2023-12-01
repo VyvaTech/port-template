@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="author" content="Igor Souza" />
+    <meta name="description" content="Portfólio de Igor Souza" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfólio | Igor Souza" />
+    <meta property="og:url" content="https://www.igorsouza.me" />
+    <meta property="og:site_name" content="Igor Souza" />
+    <meta
+      property="og:description"
+      content="passionate software developer with a love for creating innovative solutions"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.png" />
+
+    <title>Portfólio | Igor Souza</title>
+  </head>
+  <body class="flex flex-col mx-60 gap-20">
+    <nav
+      class="fixed top-0 left-0 right-0 flex p-4 bg-white z-50"
+    >
+      <div class="flex mx-60 items-center justify-between w-full">
+        <h1 class="font-bold text-2xl text-purple-500">Igor Souza</h1>
+        <ul class="flex gap-8 font-semibold">
+          <li><a href="#inicio" class="hover:text-purple-500">Inicio</a></li>
+          <li><a href="#sobre" class="hover:text-purple-500">Sobre</a></li>
+          <li>
+            <a href="#portfolio" class="hover:text-purple-500">Portfólio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="flex p-4 items-center justify-between mt-72">
+      <div class="flex flex-col gap-12">
+        <h1 class="font-semibold text-3xl">
+          Olá, sou Igor Souza
+          <br />
+          desenvolvedor FullStack
+        </h1>
+        <div class="flex gap-8 items-center justify-center">
+          <a href="https://github.com/alonefps">
+            <ion-icon
+              name="logo-github"
+              size="large"
+              class="hover:scale-125 hover:text-purple-500"
+            ></ion-icon>
+          </a>
+          <a href="https://www.linkedin.com/in/igor-o-souza/">
+            <ion-icon
+              name="logo-linkedin"
+              size="large"
+              class="hover:scale-125 hover:text-purple-500"
+            ></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/igor_exp/">
+            <ion-icon
+              name="logo-instagram"
+              size="large"
+              class="hover:scale-125 hover:text-purple-500"
+            ></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div>
+        <img src="/assets/dev.png" alt="banner" height="500px" width="500px" />
+      </div>
+    </header>
+
+    <div class="flex items-center justify-center">
+      <a href="/assets/igorsouza.docx">
+        <button
+          class="text-white font-semibold bg-violet-500 px-4 py-2 rounded-xl flex items-center justify-center gap-2 hover:scale-110"
+        >
+          <ion-icon name="document-text-outline"></ion-icon>
+          Baixar Currículo
+        </button>
+      </a>
+    </div>
+
+    <main class="flex flex-col gap-12">
+      <div class="flex items-center justify-center gap-20" id="sobre">
+        <div class="flex flex-col gap-4">
+          <h1 class="text-3xl font-bold">Sobre Mim</h1>
+          <p class="text-xl font-light">
+            Sou um desenvolvedor entusiasta, movido pela paixão de criar
+            soluções que podem transformar o mundo. Minha jornada tecnológica me
+            levou a explorar muitas áreas, desde desenvolvimento web até
+            inteligência artificial e criação de chatbots. Acredito no poder da
+            tecnologia como ferramenta para promover mudanças positivas em nossa
+            sociedade. Meu objetivo é usar todo o meu conhecimento e habilidades
+            para impactar vidas.
+          </p>
+        </div>
+        <img
+          src="/assets/0340af75af99.png"
+          alt=""
+          height="350px"
+          width="400px"
+        />
+      </div>
+
+      <div
+        class="flex flex-col items-center justify-center gap-12"
+        id="portfolio"
+      >
+        <h1 class="text-3xl font-bold">Meus projetos</h1>
+        <div class="grid grid-cols-3 gap-4">
+          <div
+            class="flex flex-col h-[300px] w-[400px] bg-slate-50 rounded-xl p-8 gap-4"
+          >
+            <h1 class="text-xl font-semibold">LinkTree</h1>
+            <p>
+              Uma replicação do popular serviço Linktree, proporcionando uma
+              página de destino personalizada com links para redes sociais e
+              conteúdo, simplificando o compartilhamento de múltiplos links
+              importantes.
+            </p>
+            <a href="https://igorsouza.me/linktree/" target="_blank">
+              <button
+                class="px-4 py-2 bg-violet-100 mx-auto rounded-xl text-violet-500 text-sm hover:scale-110"
+              >
+                Acessar
+              </button>
+            </a>
+          </div>
+          <div
+            class="flex flex-col h-[300px] w-[400px] bg-slate-50 rounded-xl p-8 gap-4"
+          >
+            <h1 class="text-xl font-semibold">Vyva Bank</h1>
+            <p>
+              Uma interface moderna e intuitiva para um banco digital,
+              permitindo que os clientes acessem facilmente seus serviços
+              financeiros, gerenciem suas contas e realizem operações com
+              segurança.
+            </p>
+            <a href="https://igorsouza.me/vyvabank/" target="_blank">
+              <button
+                class="px-4 py-2 bg-violet-100 mx-auto rounded-xl text-violet-500 text-sm hover:scale-110"
+              >
+                Acessar
+              </button>
+            </a>
+          </div>
+          <div
+            class="flex flex-col h-[300px] w-[400px] bg-slate-50 rounded-xl p-8 gap-4"
+          >
+            <h1 class="text-xl font-semibold">Windows Interface</h1>
+            <p>
+              Uma recriação detalhada da icônica interface do Windows,
+              incorporando design e desenvolvimento frontend para capturar a
+              autenticidade e a nostalgia do ambiente de desktop do Windows.
+            </p>
+            <a href="https://igorsouza.me" target="_blank">
+              <button
+                class="px-4 py-2 bg-violet-100 mx-auto rounded-xl text-violet-500 text-sm hover:scale-110"
+              >
+                Acessar
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="flex py-8 border-t border-t-slate-200 justify-between">
+      <h1 class="font-bold text-2xl">Igor Souza</h1>
+      <nav class="flex text-xl gap-4">
+        <a href="https://github.com/alonefps">
+          <ion-icon
+            name="logo-github"
+            class="hover:scale-125 hover:text-purple-500"
+          ></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/igor-o-souza/">
+          <ion-icon
+            name="logo-linkedin"
+            class="hover:scale-125 hover:text-purple-500"
+          ></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/igor_exp/">
+          <ion-icon
+            name="logo-instagram"
+            class="hover:scale-125 hover:text-purple-500"
+          ></ion-icon>
+        </a>
+      </nav>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
